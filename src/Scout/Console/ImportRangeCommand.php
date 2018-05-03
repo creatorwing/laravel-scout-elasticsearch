@@ -1,6 +1,6 @@
 <?php
 
-namespace Addons\Elasticsearch\Scout\Console;
+namespace Creator\Elasticsearch\Scout\Console;
 
 use Illuminate\Console\Command;
 use Laravel\Scout\Events\ModelsImported;

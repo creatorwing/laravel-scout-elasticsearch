@@ -1,6 +1,6 @@
 <?php
 
-namespace Addons\Elasticsearch;
+namespace Creator\Elasticsearch;
 
 use Elasticsearch\Client;
 use Monolog\Handler\RedisHandler;

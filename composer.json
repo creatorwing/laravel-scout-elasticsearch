@@ -1,17 +1,17 @@
 {
-    "name": "addons/elasticsearch",
+    "name": "creator/elasticsearch",
     "description": "Laravel's elasticsearch Paginator/Collection/Logger Helper.",
-    "homepage": "https://www.load-page.com/manuals",
+    "homepage": "https://github.com/creatorwing",
     "keywords": ["L5", "Laravel 5", "Laravel","elasticsearch","MonoLog", "Paginator", "Collection"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/fly-studio/laravel-scout-elasticsearch/issues",
-        "source": "https://github.com/fly-studio/laravel-scout-elasticsearch"
+        "issues": "https://github.com/creatorwing/laravel-scout-elasticsearch/issues",
+        "source": "https://github.com/creatorwing/laravel-scout-elasticsearch"
     },
     "authors": [
         {
-            "name": "Fly",
-            "email": "fly@load-page.com"
+            "name": "Creator Wing",
+            "email": "creatorwing@163.com"
         }
     ],
     "require": {
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Addons\\Elasticsearch\\": "src/"
+            "Creator\\Elasticsearch\\": "src/"
         },
         "classmap": [
             "src/"
@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Addons\\Elasticsearch\\ServiceProvider"
+                "Creator\\Elasticsearch\\ServiceProvider"
             ],
             "aliases": {
             }

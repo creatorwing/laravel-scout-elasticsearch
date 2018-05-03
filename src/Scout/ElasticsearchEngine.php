@@ -1,6 +1,6 @@
 <?php
 
-namespace Addons\Elasticsearch\Scout;
+namespace Creator\Elasticsearch\Scout;
 
 use Addons\Elasticsearch\Scout\Builder;
 use Elasticsearch\Client as Elasticsearch;

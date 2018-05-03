@@ -1,6 +1,6 @@
 <?php
 
-namespace Addons\Elasticsearch;
+namespace Creator\Elasticsearch;
 
 use Psr\Log\LoggerInterface;
 use Elasticsearch\ClientBuilder;

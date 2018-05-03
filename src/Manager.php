@@ -1,6 +1,6 @@
 <?php
 
-namespace Addons\Elasticsearch;
+namespace Creator\Elasticsearch;
 
 use Illuminate\Contracts\Foundation\Application;
 
