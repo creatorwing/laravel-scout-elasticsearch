@@ -3,6 +3,8 @@
 namespace Addons\Elasticsearch\Scout;
 
 use Closure;
+use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Illuminate\Support\Collection;
