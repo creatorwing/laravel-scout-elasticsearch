@@ -11,10 +11,10 @@ An easy way to use the official Elastic Search client in your Laravel 5.
 
 ## Installation and Configuration
 
-Install the `addons/elasticsearch` package via composer:
+Install the `creator/elasticsearch` package via composer:
 
 ```shell
-composer require addons/elasticsearch
+composer require creator/elasticsearch
 ```
 
 ### Laravel
@@ -25,12 +25,12 @@ Add the service provider and facade to `config/app.php`:
 'providers' => [
     ...
     Laravel\Scout\ScoutServiceProvider::class,
-    Addons\Elasticsearch\ServiceProvider::class,
+    Creator\Elasticsearch\ServiceProvider::class,
 ]
 
 'aliases' => [
     ...
-    'Elasticsearch' => Addons\Elasticsearch\Facade::class,
+    'Elasticsearch' => Creator\Elasticsearch\Facade::class,
 ]
 ```
 
