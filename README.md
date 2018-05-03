@@ -34,7 +34,7 @@ Add the service provider and facade to `config/app.php`:
 ]
 ```
 
-`ScoutServiceProvider` must Before the `Addons\Elasticsearch\ServiceProvider`.
+`ScoutServiceProvider` must Before the `Creator\Elasticsearch\ServiceProvider`.
 
 Pull these to the `.env`
 
@@ -54,7 +54,7 @@ Publish the configuration file:
 
 ```shell
 php artisan vendor:publish --provider="Laravel\Scout\ScoutServiceProvider"
-php artisan vendor:publish --provider="Addons\Elasticsearch\ServiceProvider"
+php artisan vendor:publish --provider="Creator\Elasticsearch\ServiceProvider"
 ```
 
 ## Usage
@@ -66,7 +66,7 @@ php artisan vendor:publish --provider="Addons\Elasticsearch\ServiceProvider"
 ```php
 //app\User.php
 
-use Addons\Elasticsearch\Scout\Searchable;
+use Creator\Elasticsearch\Scout\Searchable;
 
 class User extends Model {
     use Searchable;
@@ -506,14 +506,8 @@ Logstash can read and parse it;
     'logstashDriver' => null, //file, redis
   ]
 ]
-```
+``
 
 
 
-## Copyright and License
 
-[elasticsearch](https://git.load-page.com/addons/elasticsearch)
-was written by [Colin Viebrock](http://viebrock.ca), [Fly](https://www.load-page.com/base/manual) and is released under the
-[MIT License](LICENSE.md).
-
-Copyright (c) 2016-2017
